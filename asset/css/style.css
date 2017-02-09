@@ -1,41 +1,61 @@
 body { 
 	margin:0;
 	padding:0;
-	background-color:#efeee7;
-	font-family:georgia;
-	line-height: 150%;
+	background-image:#eeeeee;
+	font-family:Helvetica;
+	line-height:#;
 
 	}
-		h1{background-color:#333333;
-		color:#eee;
-		margin:0;
-		text-align: center;
-		font-size: 28px;
+
+	.container{
+		width:960px;
+		margin:0 auto;
+		background-color:#cccccc;
+	}
+
+
+
+	h1{
+		color:#ffffff;
+		background-color: #4aaaa5;
 		padding-top:20px;
 		padding-bottom:20px;
-		}
-		h2{ font-size: 24px;
-			color:#333333;
-
+		margin-right:80%;
+		margin-top:0px;
+		float:left;
 	}
-	
 
-	.container {
-			width: 1024px;
-			margin:0 auto;
 
+
+	#main-bio,
+	#info,
+	#bio-image{
+		float:left;
 	}
+	#main-bio{
+	width:70%;
+	}
+
+
+	#info{
+		width:30%;
+}
+
+
 		
 
-		#main,#contact {
-			float: left;
 
 
-		}
+	
 
-		#main {width:70%;}
 
-		#contact{width:30%;}
+	
+
+
+
+
+
+
 
 
 
